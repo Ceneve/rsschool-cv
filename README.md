@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Ceneve.github.io/rsschool-cv/cv
