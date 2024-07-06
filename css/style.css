@@ -1,8 +1,3 @@
-@font-face {
-    font-family: Inter;
-    src: url("assets/fonts/Inter.ttf");
-    font-weight: 400;
-}
 @media (max-width: 768px) {
     .section {
       width: 100%;
@@ -11,7 +6,11 @@
 * {
     box-sizing: border-box;
 }
+a {
+  padding: 0 4px;
+}
 body {
+    font-family: Inter;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -19,18 +18,15 @@ body {
     margin: auto;
     padding: 0;
     width: 70%;
+    height: 80;
 }
 header {
-    background-color: rgba(28, 168, 168, 0.863);
-    border: 1px solid red;
-}
-main {
-    display: flex;
-    align-items: center;
-    border: 1px solid blue;
+    background-color: rgba(167, 230, 230, 0.863);
 }
 footer {
-    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    background-color: rgba(167, 230, 230, 0.863);
 }
 .container {
     max-width: 1440px;
@@ -51,7 +47,25 @@ footer {
     flex-wrap: wrap;
     align-items: center;
   }
-  
   .section {
     width: 50%;
+  }
+  .section-tittle {
+    margin-left: 20px;
+  }
+  .logo {
+    margin-left: 550px;
+    width:80px;
+    height:80px;
+  }
+  .avatar {
+    margin-left: 250px;
+    width:120px;
+    height:120px;
+  }
+  .name {
+    margin-left: 250px;
+  }
+  .text-box {
+    margin-left: 20px;
   }
